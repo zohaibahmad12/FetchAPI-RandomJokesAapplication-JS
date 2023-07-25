@@ -1,0 +1,55 @@
+
+    body {
+        font-family: "Comic Sans MS", sans-serif;
+        background-color: #007acc;
+    }
+
+
+
+
+    #heading {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 6vw;
+        color: white;
+        padding: 0px;
+    }
+
+    #jokeContainer {
+
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    #makeyoulaugh {
+        font-size: 1.2vw;
+        font-weight: bold;
+        color: gray;
+        opacity: 0.3;
+    }
+
+    #joke {
+        font-size: 1.5vw;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #nextJoke {
+
+        width: 20%;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 1.3vw;
+        margin-top: 20px;
+
+    }
